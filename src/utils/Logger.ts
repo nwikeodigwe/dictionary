@@ -1,8 +1,12 @@
 import winston from "winston";
 import "express-async-errors";
 
-class Logger {
+export class Logger {
   private logger: winston.Logger;
+
+  get transports() {
+    return this.logger.transports;
+  }
 
   constructor() {
     const format = winston.format.combine(
