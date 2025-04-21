@@ -65,6 +65,5 @@ jobs:
         env:
           NODE_ENV: test
         run: |
-          cd app
           npm install
           npx jest --verbose --runInBand
