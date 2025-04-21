@@ -1,6 +1,10 @@
 require("dotenv").config();
 import express from "express";
+import setupRoutes from "./startup/routes";
+
 const app = express();
+
+setupRoutes(app);
 
 module.exports = app;
 
