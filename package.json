@@ -1,0 +1,31 @@
+{
+  "name": "dictionary",
+  "version": "1.0.0",
+  "description": "A dictionary api",
+  "homepage": "https://github.com/nwikeodigwe/dictionary#readme",
+  "bugs": {
+    "url": "https://github.com/nwikeodigwe/dictionary/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwikeodigwe/dictionary.git"
+  },
+  "license": "ISC",
+  "author": "Nwike Odigwe",
+  "type": "Es Modules",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
