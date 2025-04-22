@@ -1,0 +1,4 @@
+2025-04-21 12:33:13 info: Test info message
+2025-04-21 12:33:13 error: Test error message
+2025-04-21 12:33:13 warn: Test warn message
+2025-04-21 12:33:13 debug: Test debug message
